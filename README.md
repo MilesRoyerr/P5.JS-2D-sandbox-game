@@ -1,4 +1,4 @@
-# P5.JS-Minecraft-Clone
+# P5.JS- 2D Sandbox block placment game
 Simple Block Placement Game
 
 This project is a basic block placement game built with JavaScript and the p5.js library. The program allows users to place gray blocks on a grid by clicking on the canvas. It also includes a simple visual representation of the ground, similar to the ground level in Minecraft, with a grid overlay to guide block placement.
