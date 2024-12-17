@@ -13,7 +13,7 @@ function draw() {
   fill(100, 200, 100); 
   rect(0, height - blockSize * 2, width, blockSize * 2); 
 
-  // Loop through the array of blocks and draw each one
+ 
   for (let block of blocks) {
     fill(150); 
     rect(block.x, block.y, blockSize, blockSize); 
