@@ -27,7 +27,7 @@ function draw() {
 function drawGrid() {
   stroke(200); 
   for (let x = 0; x < width; x += blockSize) { 
-    for (let y = 0; y < height; y += blockSize) { // Loop over the height in steps of blockSize
+    for (let y = 0; y < height; y += blockSize) { 
       noFill(); // Ensure there's no fill for the grid
       rect(x, y, blockSize, blockSize); // Draw a square grid cell
     }
