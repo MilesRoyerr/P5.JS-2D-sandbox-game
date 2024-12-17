@@ -34,7 +34,7 @@ function drawGrid() {
   }
 }
 
-// Function to place a block at the mouse click position
+
 function mousePressed() {
   // Calculate the grid-aligned x and y position based on the mouse click
   let x = Math.floor(mouseX / blockSize) * blockSize;
