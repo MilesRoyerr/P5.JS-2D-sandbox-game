@@ -16,7 +16,7 @@ function draw() {
   // Loop through the array of blocks and draw each one
   for (let block of blocks) {
     fill(150); // Set the fill color to gray for the blocks
-    rect(block.x, block.y, blockSize, blockSize); // Draw a block at the specified (x, y) position
+    rect(block.x, block.y, blockSize, blockSize); 
   }
 
   // Draw the grid on top of everything for block placement guidance
