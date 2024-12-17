@@ -36,11 +36,10 @@ function drawGrid() {
 
 
 function mousePressed() {
-  // Calculate the grid-aligned x and y position based on the mouse click
+  
   let x = Math.floor(mouseX / blockSize) * blockSize;
   let y = Math.floor(mouseY / blockSize) * blockSize;
 
-  // Ensure blocks cannot be placed on the ground or below
   if (y < height - blockSize * 2) {
     blocks.push({x: x, y: y}); // Add the block's (x, y) position to the blocks array
   }
