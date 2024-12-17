@@ -23,7 +23,7 @@ function draw() {
   drawGrid(); 
 }
 
-// Function to draw a grid of lines across the canvas to guide block placement
+
 function drawGrid() {
   stroke(200); // Set the stroke color for the grid lines to light gray
   for (let x = 0; x < width; x += blockSize) { // Loop over the width in steps of blockSize
