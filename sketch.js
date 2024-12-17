@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   background(200, 230, 255);
 
-  // Draw the ground at the bottom of the canvas
+  
   fill(100, 200, 100); 
   rect(0, height - blockSize * 2, width, blockSize * 2); 
 
