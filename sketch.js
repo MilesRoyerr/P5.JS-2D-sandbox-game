@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(200, 230, 255); // Set the background color to sky blue
+  background(200, 230, 255);
 
   // Draw the ground at the bottom of the canvas
   fill(100, 200, 100); // Set the fill color to green for the ground
