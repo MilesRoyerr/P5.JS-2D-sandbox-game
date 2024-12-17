@@ -1,4 +1,4 @@
-let blockSize = 32;  // Define the size of each block in pixels
+let blockSize = 32;  
 let blocks = [];     // Array to store the positions of placed blocks
 
 function setup() {
