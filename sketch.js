@@ -2,7 +2,7 @@ let blockSize = 32;
 let blocks = [];    
 
 function setup() {
-  createCanvas(640, 480); // Set up a canvas of size 640x480 pixels
+  createCanvas(640, 480); 
   noStroke(); // Disable outlines around shapes
 }
 
