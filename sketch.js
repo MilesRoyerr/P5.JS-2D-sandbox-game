@@ -3,7 +3,7 @@ let blocks = [];
 
 function setup() {
   createCanvas(640, 480); 
-  noStroke(); // Disable outlines around shapes
+  noStroke();
 }
 
 function draw() {
