@@ -25,7 +25,7 @@ function draw() {
 
 
 function drawGrid() {
-  stroke(200); // Set the stroke color for the grid lines to light gray
+  stroke(200); 
   for (let x = 0; x < width; x += blockSize) { // Loop over the width in steps of blockSize
     for (let y = 0; y < height; y += blockSize) { // Loop over the height in steps of blockSize
       noFill(); // Ensure there's no fill for the grid
