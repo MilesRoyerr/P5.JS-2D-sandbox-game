@@ -19,7 +19,7 @@ function draw() {
     rect(block.x, block.y, blockSize, blockSize); 
   }
 
-  // Draw the grid on top of everything for block placement guidance
+  
   drawGrid(); 
 }
 
