@@ -10,7 +10,7 @@ function draw() {
   background(200, 230, 255);
 
   // Draw the ground at the bottom of the canvas
-  fill(100, 200, 100); // Set the fill color to green for the ground
+  fill(100, 200, 100); 
   rect(0, height - blockSize * 2, width, blockSize * 2); // Draw a green rectangle for the ground, spanning the full width and a height of 2 blocks
 
   // Loop through the array of blocks and draw each one
