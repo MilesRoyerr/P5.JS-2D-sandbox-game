@@ -15,7 +15,7 @@ function draw() {
 
   // Loop through the array of blocks and draw each one
   for (let block of blocks) {
-    fill(150); // Set the fill color to gray for the blocks
+    fill(150); 
     rect(block.x, block.y, blockSize, blockSize); 
   }
 
