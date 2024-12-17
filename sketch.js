@@ -20,7 +20,7 @@ function draw() {
   }
 
   // Draw the grid on top of everything for block placement guidance
-  drawGrid(); // Call the function to display the grid
+  drawGrid(); 
 }
 
 // Function to draw a grid of lines across the canvas to guide block placement
