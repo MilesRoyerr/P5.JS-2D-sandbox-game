@@ -29,7 +29,7 @@ function drawGrid() {
   for (let x = 0; x < width; x += blockSize) { 
     for (let y = 0; y < height; y += blockSize) { 
       noFill(); // Ensure there's no fill for the grid
-      rect(x, y, blockSize, blockSize); // Draw a square grid cell
+      rect(x, y, blockSize, blockSize); 
     }
   }
 }
